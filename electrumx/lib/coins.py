@@ -3760,6 +3760,21 @@ class Auroracoin(Coin):
     RPC_PORT = 12341
     REORG_LIMIT = 5000
 
+class Emark(Coin):
+    NAME = "Deutsche eMark"
+    SHORTNAME = "DEM"
+    NET = "mainnet"
+    P2PKH_VERBYTE = bytes.fromhex("35")
+    P2SH_VERBYTES = bytes.fromhex("1e")
+    WIF_BYTE = bytes.fromhex("b5")
+    GENESIS_HASH = ('000000bc0ddf15573115c44b81d8b10e'
+                    '9ebd868b5c967f408bda273656f30e28')
+    TX_COUNT = 1
+    TX_COUNT_HEIGHT = 1
+    TX_PER_BLOCK = 1
+    RPC_PORT = 4444
+    REORG_LIMIT = 5000
+
 
 class Smileycoin(Coin):
     NAME = "Smileycoin"
