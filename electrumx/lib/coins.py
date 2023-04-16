@@ -3761,7 +3761,7 @@ class Auroracoin(Coin):
     REORG_LIMIT = 5000
 
 class Emark(Coin):
-    NAME = "Deutsche eMark"
+    NAME = "Emark"
     SHORTNAME = "DEM"
     NET = "mainnet"
     P2PKH_VERBYTE = bytes.fromhex("35")
