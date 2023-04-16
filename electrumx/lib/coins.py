@@ -3760,6 +3760,7 @@ class Auroracoin(Coin):
     RPC_PORT = 12341
     REORG_LIMIT = 5000
 
+
 class Emark(Coin):
     NAME = "Emark"
     SHORTNAME = "DEM"
