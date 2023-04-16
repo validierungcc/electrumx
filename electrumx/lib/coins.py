@@ -3770,6 +3770,7 @@ class Emark(Coin):
     WIF_BYTE = bytes.fromhex("b5")
     GENESIS_HASH = ('000000bc0ddf15573115c44b81d8b10e'
                     '9ebd868b5c967f408bda273656f30e28')
+    DAEMON = daemon.LegacyRPCDaemon
     TX_COUNT = 1
     TX_COUNT_HEIGHT = 1
     TX_PER_BLOCK = 1
